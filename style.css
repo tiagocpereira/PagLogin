@@ -1,3 +1,5 @@
+/*geral*/
+
 *{
     margin: 0;
     padding: 0;
@@ -10,4 +12,26 @@ body{
     background-image: url(../img/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
     background-size: cover;
     
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+a{
+    font-size: .8rem;
+}
+a:hover{
+    color:#085588;
+}
+
+/*container login*/
+
+#login-container{
+    background-color:#fff;
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
 }
